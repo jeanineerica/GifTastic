@@ -3,7 +3,7 @@
 // File Created July 19, 2017 12:00PM
 $(document).ready(function() {
 //Celebrity Chef Array
-var topics = ["Alton Brown", "Giada de Laurentiis",
+var topics = ["Rachel Ray", "Ina Garten",
        "Bobby Flay", "Guy Fieri"];
 
 
@@ -68,7 +68,11 @@ var topics = ["Alton Brown", "Giada de Laurentiis",
               
         }); 
      };
-      
+
+     //Reset Form
+  function myFunction() {
+  document.getElementById("name-form").reset();
+    }
 
 // Funtion to display Chef name
 function renderButtons() {
