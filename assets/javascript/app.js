@@ -69,11 +69,6 @@ var topics = ["Rachel Ray", "Ina Garten",
         }); 
      };
 
-     //Reset Form
-  function myFunction() {
-  document.getElementById("name-form").reset();
-    }
-
 // Funtion to display Chef name
 function renderButtons() {
 
